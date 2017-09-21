@@ -6,7 +6,7 @@ function get(name){
 
 function myFunction() {
     
-    document.getElementById("demo").innerHTML = get(httpGet("https://na1.api.riotgames.com/lol/summoner/v3/summoners/by-name/RiotSchmick?api_key=RGAPI-acaad9bd-dae4-4dcf-ba96-e3ab026db416"));
+    document.getElementById("demo").innerHTML = get(httpGet("https://na1.api.riotgames.com/lol/summoner/v3/summoners/by-name/RiotSchmick?api_key=RGAPI-92482854-e6af-4cbc-9f28-2b09a2fd05c3"));
     alert("Hello world");
 }
 
